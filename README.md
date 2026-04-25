@@ -127,11 +127,3 @@ pyinstaller --onefile --windowed --add-data "ffmpeg.exe;." --hidden-import pilk 
 
 欢迎提交 Issue 或 Pull Request。
 
-## 📧 联系
-
-如有问题，请在本仓库的 Issues 中提出。
-```
-
----
-
-你可以把这个内容保存为 `README.md`，与 `convert_to_silk_gui.py` 放在同一个 Git 仓库中，这样仓库主页就会显示一份清晰完整的使用说明。如果后续你加了截图，记得把 `screenshots/gui.png` 替换成真实图片路径。
