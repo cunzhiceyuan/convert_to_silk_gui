@@ -1,7 +1,7 @@
 
 # 🎵 音频转 Silk 工具
 
-一个带图形界面的音频格式转换工具，可将常见音频文件（MP3、WAV、FLAC、AAC、OGG、M4A、OPUS、WMA）转换为腾讯 **Silk** 格式（`.silk`），适用于vx的、QQ 等场景。
+一个带图形界面的音频格式转换工具，可将常见音频文件（MP3、WAV、FLAC、AAC、OGG、M4A、OPUS、WMA）转换为tx **Silk** 格式（`.silk`），适用于vx的、QQ 等场景。
 
 ![GUI界面预览](screenshots/gui.png)  <!-- 如果你有截图，可以放这里 -->
 
@@ -111,7 +111,7 @@ pyinstaller --onefile --windowed --add-data "ffmpeg.exe;." --hidden-import pilk 
 **A:** 确保 FFmpeg 已正确安装并加入 PATH，或者将 `ffmpeg.exe` 放在与脚本相同的目录下。
 
 ### Q3: 转换出的 `.silk` 文件无法在vx的中播放？
-**A:** vx的 Silk 格式有严格参数要求：单声道、24000 Hz 采样率、腾讯专用版本。本工具已默认使用这些参数，通常可正常播放。如果仍有问题，请检查源文件是否为有效音频。
+**A:** vx的 Silk 格式有严格参数要求：单声道、24000 Hz 采样率、tx专用版本。本工具已默认使用这些参数，通常可正常播放。如果仍有问题，请检查源文件是否为有效音频。
 
 ### Q4: 程序运行时闪退？
 **A:** 请尝试在命令行中运行，查看具体报错信息。常见原因是缺少依赖或 FFmpeg 未找到。
